@@ -32,9 +32,6 @@ body {
     display: flex;
     padding: 0;
     gap: 46px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -100%);
 }
 
 .header-nav a {
