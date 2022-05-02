@@ -16,6 +16,7 @@ body {
     align-items: center;
     padding-top: 26px;
     padding-bottom: 26px;
+    position: relative;
 }
 
 .header-logo {
@@ -32,6 +33,11 @@ body {
     display: flex;
     padding: 0;
     gap: 46px;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .header-nav a {
@@ -54,4 +60,89 @@ body {
 
 .header-nav a.active::after {
     background-color: #FFC725;
+}
+
+.button {
+    border: none;
+    display: flex;
+    background-color:transparent;
+    align-items:center;
+    padding: 0;
+    gap: 10px;
+}
+
+.button-text {
+    font-size: 15px;
+    font-weight: 700;
+    color:#443737;
+    line-height: 20px;
+}
+
+.button-item {
+    position: relative;
+}
+
+.button-count {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.35;
+    text-align: center;
+    width: 17px;
+    height: 17px;
+    background-color:#F37335;
+    border-radius: 100%;
+    color:white;
+    position: absolute;
+    bottom: 3px;
+    right: -4px;
+}
+
+.bg {
+    text-align: center;
+    color:white;
+    background-image:url(/images/background.jpg);
+    background-size:cover;
+    padding: 142px 0;
+    background-position: center center;
+}
+
+.breadcrumbs {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.breadcrumbs a {
+    font-family: 'Open Sans', sans-serif;
+    color:#DEDEDE;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.breadcrumbs li:not(:first-child) a::before {
+    content:"/";
+    position: relative;
+    left: -7px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 79px;
+    line-height: 108px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.descript {
+    font-family: 'Open Sans', sans-serif;
+    color: #FAF9F9;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 320px;
+    margin: 0 auto;
 }
