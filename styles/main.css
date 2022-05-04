@@ -91,7 +91,7 @@ body {
     height: 17px;
     background-color:#F37335;
     border-radius: 100%;
-    color:white;
+    color:#ffffff;
     position: absolute;
     bottom: 3px;
     right: -4px;
@@ -99,7 +99,7 @@ body {
 
 .bg {
     text-align: center;
-    color:white;
+    color:#ffffff;
     background-image:url(../images/background.jpg);
     background-size:cover;
     padding: 142px 0;
