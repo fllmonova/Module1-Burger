@@ -21,9 +21,9 @@ body {
 
 .header-logo {
     display: block;
-    background-image: url(../images/logo.svg);
     width: 176px;
     height: 56px;
+    background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -31,21 +31,21 @@ body {
 .header-nav {
     list-style: none;
     display: flex;
-    padding: 0;
     gap: 46px;
     position: absolute;
-    margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    padding: 0;
+    margin: 0;
 }
 
 .header-nav a {
-    text-decoration: none;
+    color: #443737;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
-    color: #443737;
+    text-decoration: none;
 }
 
 .header-nav a::after {
@@ -63,18 +63,18 @@ body {
 }
 
 .button {
-    border: none;
     display: flex;
-    background-color:transparent;
-    align-items:center;
-    padding: 0;
+    align-items: center;
     gap: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
 
 .button-text {
+    color:#443737;
     font-size: 15px;
     font-weight: 700;
-    color:#443737;
     line-height: 20px;
 }
 
@@ -85,13 +85,13 @@ body {
 .button-count {
     font-weight: 700;
     font-size: 13px;
+    color: #ffffff;
     line-height: 1.35;
     text-align: center;
     width: 17px;
     height: 17px;
     background-color:#F37335;
     border-radius: 100%;
-    color:#ffffff;
     position: absolute;
     bottom: 3px;
     right: -4px;
@@ -99,33 +99,32 @@ body {
 
 .bg {
     text-align: center;
-    color:#ffffff;
-    background-image:url(../images/background.jpg);
-    background-size:cover;
-    padding: 142px 0;
+    color: #ffffff;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
     background-position: center center;
-    background-color: #C4C4C4;
+    padding: 142px 0;
 }
 
 .breadcrumbs {
-    margin-top: 0;
-    padding-left: 0;
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 .breadcrumbs a {
     font-family: 'Open Sans', sans-serif;
-    color:#DEDEDE;
+    color: #DEDEDE;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
 }
 
 .breadcrumbs li:not(:first-child) a::before {
-    content:"/";
+    content: "/";
     position: relative;
     left: -7px;
 }
@@ -142,8 +141,8 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #FAF9F9;
     font-size: 15px;
-    line-height: 1.5;
     font-weight: 400;
+    line-height: 1.5;
     max-width: 320px;
     margin: 0 auto;
 }
