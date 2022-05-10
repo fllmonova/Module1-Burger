@@ -169,7 +169,7 @@ header {
 }
 
 .banner-box {
-    padding: 100px 100px 119px;
+    padding: 100px;
     margin-bottom: 100px;
     background-image: url(../images/banner.jpg);
     background-position: center center;
@@ -212,14 +212,16 @@ header {
 }
 
 .banner-link {
+    display: block;
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 58px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 20px 25px 19px 26px;
+    /*padding: 20px 0;*/
+    width: 170px;
     background-color: #FBB731;
     border-radius: 5px;
 }
