@@ -189,13 +189,14 @@ header {
 
 .banner-title span {
     display: block;
-    max-width: 58px;
+    width: 95px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px;
     line-height: 18px;
+    text-align: center;
     text-transform: uppercase;
-    padding: 5px 19px 5px 18px;
+    padding: 5px 0;
     background-color: #F37335;
     border-radius: 14px;
 }
@@ -208,7 +209,7 @@ header {
     line-height: 24px;
     max-width: 315px;
     margin-top: 0;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .banner-link {
@@ -216,11 +217,11 @@ header {
     color: #1E2F40;
     font-weight: 700;
     font-size: 14px;
-    line-height: 58px;
+    line-height: 18px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    /*padding: 20px 0;*/
+    padding: 21px 0 19px;
     width: 170px;
     background-color: #FBB731;
     border-radius: 5px;
