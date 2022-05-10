@@ -98,7 +98,7 @@ header {
 .button-count {
     font-weight: 700;
     font-size: 13px;
-    color: #ffffff;
+    color: #FFFFFF;
     line-height: 1.35;
     text-align: center;
     width: 17px;
@@ -112,7 +112,7 @@ header {
 
 .bg {
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
     background-image: url(../images/background.jpg);
     background-size: cover;
     background-position: center center;
