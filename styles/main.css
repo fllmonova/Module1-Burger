@@ -327,6 +327,7 @@ header {
     background-image: url(../images/cart.svg);
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     position: relative;
     left: -6px;
 }
