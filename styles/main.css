@@ -343,3 +343,83 @@ header {
 .additionaly-title {
     margin-top: 100px;
 }
+
+.footer {
+    background: #1E2F40;
+}
+
+.footer-box {
+    padding: 117px 0 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    color: #FFFFFF;
+    margin-top: 140px;
+}
+
+.footer-logo {
+    display: block;
+    width: 63px;
+    height: 56px;
+    background-image: url(../images/footer-logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-title {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+}
+
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-list li {
+    color: #DEDEDE;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 8px;
+}
+
+.footer-item + .footer-item li:last-child {
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+.footer-list span {
+    display: block;
+    color: #FAF9F9;
+    font-weight: 700;
+}
+
+.footer-list a {
+    color: #DEDEDE;
+    text-decoration: none;
+}
+
+.footer-list-tel {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: uppercase;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.footer-list-tel li {
+    margin-bottom: 7px;
+}
+
+.footer-list-tel a {
+    text-decoration: none;
+    color:#FBB731;
+}
