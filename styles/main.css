@@ -174,7 +174,7 @@ header {
     padding: 100px;
     margin-bottom: 80px;
     background-image: url(../images/banner.jpg);
-    background-position: center center;
+    background-position: 0 center;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -271,6 +271,7 @@ header {
     background-repeat: no-repeat;
     background-position: 89.5% center;
     background-size: 13px 9px;
+    background-color: #FFFFFF;
 }
 
 .menu-grid {
@@ -346,7 +347,7 @@ header {
     background-image: url(../images/cart.svg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: contain;
     position: relative;
     left: -6px;
 }
@@ -637,3 +638,96 @@ header {
 .footer-list-tel a:hover {
     color: #FFFFFF;
 }
+
+/* Responsive */
+@media (min-width: 1001px) {
+    .footer-item .footer-list-tel {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 738px;
+    }
+
+    .header {
+        padding-top: 28px;
+    }
+
+    .header-logo {
+        height: 48px;
+        width: 150px;
+    }
+
+    .header-item {
+        flex-basis: 75.5%;
+    }
+
+    .header-nav {
+        gap: 22px;
+        margin: 0;
+    }
+
+    .bg {
+        margin-bottom: 72px;
+    }
+
+    .banner-box {
+        padding: 100px 40px;
+        margin-bottom: 61px;
+        background-position: -80px center;
+    }
+
+    .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 362px);
+        column-gap: 15px;
+        margin-bottom: 0;
+    }
+
+    .additionaly-title {
+        margin-top: 89px;
+    }
+
+    .menu-other {
+        overflow: hidden;
+        height: 650px;
+        padding-top: 0;
+    }
+
+    .menu-other .menu-grid {
+        display: flex;
+        width: auto;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-bottom: 50px;
+    }
+
+    .menu-other .menu-grid-item {
+        flex: 0 0 281px;
+    }
+
+    .menu-other .menu-grid-cover {
+        height: 320px;
+    }
+
+    .menu-other .menu-grid-cover img {
+        width: 290px;
+    }
+
+    .footer-box {
+        margin-top: 138px;
+        padding-top: 60px;
+        padding-bottom: 71px;
+    }
+
+    .footer-item .footer-list-tel {
+        display: block;
+    }
+
+    .footer-tel {
+        display: none;
+    }
+
+}    
